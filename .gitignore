@@ -1,0 +1,12 @@
+# The generated Rust code that is compared against a `output_snapshot` directory
+test/transpile/**/temp-output/
+
+# Compiled Javascript. This isn't needed for the most part b/c the tests generate Rust, 
+# but sometimes we might want to generate JS as part of debugging issues.
+test/transpile/**/dist/
+
+
+# The compiled code
+dist
+
+node_modules
